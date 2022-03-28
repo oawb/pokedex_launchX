@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Pokedex</title>
-    <script src="./main.js"></script>
+
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                     <div id="buttontopPicture2"></div>
                 </div>
                 <div id="picture">
-                    <img src="" alt="psykokwak" height="170" />
+                    <img src="./assets/pokeholder.jpg" alt="Pokemon" id="pokeImg" width="150px">
                 </div>
                 <div id="buttonbottomPicture"></div>
                 <div id="speakers">
@@ -47,7 +47,7 @@
                     <div class="sp"></div>
                 </div>
             </div>
-            <div id="bigbluebutton"></div>
+            <div id="bigbluebutton"><button onclick="fetchPokemon()">Cambiar Imágen</button></div>
             <div id="barbutton1"></div>
             <div id="barbutton2"></div>
             <div id="cross">
@@ -94,7 +94,7 @@
             <div id="miniButtonGlass5"></div>
             <div id="barbutton3"></div>
             <div id="barbutton4"></div>
-            <div id="yellowBox1"></div>
+            <div id="yellowBox1"><input type="number" placeholder="Ingresa Número" id="pokeNumber" name="pokeNumber"></div>
             <div id="yellowBox2"></div>
             <div id="bg_curve1_right"></div>
             <div id="bg_curve2_right"></div>
@@ -104,5 +104,6 @@
     </div>
 
 </body>
+<script src="./main.js"></script>
 
 </html>
